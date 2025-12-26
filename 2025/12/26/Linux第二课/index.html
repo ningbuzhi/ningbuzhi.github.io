@@ -6,13 +6,40 @@
   
   <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
+  <meta name="description" content="Linux的简单使用安装好要用的虚拟机   关闭防火墙及SELinux以及设置主机名   组成：Linux由硬件、内核（含文件系统）、Shell、应用程序四层组成，Shell作为交互接口，衔接用户指令与内核，最终通过硬件完成操作反馈结果。 shell命令提示符：  [root@localhost ~]# root ：当前登录的账户名，root为管理员 localhost：主机名，默认为localh">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://ningbuzhi.github.io.git/index.html">
+<meta property="og:url" content="http://ningbuzhi.github.io.git/2025/12/26/Linux%E7%AC%AC%E4%BA%8C%E8%AF%BE/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Linux的简单使用安装好要用的虚拟机   关闭防火墙及SELinux以及设置主机名   组成：Linux由硬件、内核（含文件系统）、Shell、应用程序四层组成，Shell作为交互接口，衔接用户指令与内核，最终通过硬件完成操作反馈结果。 shell命令提示符：  [root@localhost ~]# root ：当前登录的账户名，root为管理员 localhost：主机名，默认为localh">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/63692282/1766717824188-a9f9513b-7ae6-463d-bb8d-4caca55c3215.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/63692282/1766717830553-6825cb8d-493b-40b0-847a-1d0c36cedfb3.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/63692282/1766717977441-fc929fd7-aa4a-41bc-bdbf-5bb24baa225c.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/63692282/1766717998203-cb65bbce-64ca-4f17-a653-f28422f777b0.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/63692282/1766718025598-7233d358-cbc7-4e89-a867-825b04b7cc80.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/63692282/1766718083177-b0b2f55e-8311-437a-8095-1db2538ae7f7.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/63692282/1766718098912-95966a19-36fb-4429-af1b-bd66f0cd5af9.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/63692282/1766718104577-736d07ae-70da-4100-af69-85a47ed354a4.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/63692282/1766718110609-cc224616-6e88-4f8a-865f-e8ac338a0eb8.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/63692282/1766718114979-99ae14a4-d599-4f2a-a947-dbd62b608b94.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/63692282/1766718241543-5c0fb1cc-2aa0-40b4-a57a-0c54de08e08e.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/63692282/1766718265399-2de1df3d-d432-40de-b70b-167f474f37aa.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/63692282/1766718573487-cc403e20-4eab-4d25-afaa-cd63641b7093.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/63692282/1766718965208-3ec9b141-6ab2-426b-b75f-67dc7241fd2c.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/63692282/1766719060939-f451b199-0a74-4450-be49-3cb9ba22b39f.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/63692282/1766719476480-647b5846-e4f6-4792-9cc8-aef6bf54319d.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/63692282/1766719523669-af97dae9-0184-4a51-870d-de2203d1b1c1.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/63692282/1766719598150-32f5a902-f328-4f94-96b2-a170c63a2807.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/63692282/1766720188536-ea9ee563-5c71-49fc-8d63-3d96247508fc.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/63692282/1766720315349-d5e2f658-a04e-442b-b10d-941eb7749841.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/63692282/1766720390694-935a33ec-579c-4995-8484-c336ff8d8675.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/63692282/1766719932195-7eb07003-8f93-4327-89f7-987b40fee3f1.png">
+<meta property="article:published_time" content="2025-12-26T03:46:46.497Z">
+<meta property="article:modified_time" content="2025-12-26T03:45:43.648Z">
 <meta property="article:author" content="ningbuzhi">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.nlark.com/yuque/0/2025/png/63692282/1766717824188-a9f9513b-7ae6-463d-bb8d-4caca55c3215.png">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -69,9 +96,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-Linux第二课" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-Linux第二课" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2025/12/26/Linux%E7%AC%AC%E4%BA%8C%E8%AF%BE/" class="article-date">
   <time class="dt-published" datetime="2025-12-26T03:46:46.497Z" itemprop="datePublished">2025-12-26</time>
@@ -240,168 +265,19 @@
     </footer>
   </div>
   
-</article>
-
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-Linux基础第一课" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2025/12/17/Linux%E5%9F%BA%E7%A1%80%E7%AC%AC%E4%B8%80%E8%AF%BE/" class="article-date">
-  <time class="dt-published" datetime="2025-12-17T05:02:48.180Z" itemprop="datePublished">2025-12-17</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p><strong>centos7</strong>title: Linux基础第一课</p>
-<p>1、在VMware上创建centos7虚拟机</p>
-<p>2、使用MobaXterm上的ssh会话通过centos7虚拟机的ip连接到Linux上的服务器</p>
-<p>3、通过一系列操作修改网卡，getenforce检查SELinux状态并关闭防火墙，最后重启linux服务器进行排查，防止出错可行进行快照和克隆</p>
-<p> <strong>常见命令行指令</strong></p>
-<hr>
-<p><strong>文件与目录操作</strong></p>
-<hr>
-<p>1、 ls  列出目录内容  例如：ls -l （详细列表）、 ls -a （显示隐藏文件） </p>
-<p>2、 cd  切换目录  例如：cd &#x2F;root （切根目录）、 cd .. （返回上级） </p>
-<p>3、mkdir  创建目录例如： mkdir test_dir （创建单目录）、 mkdir -p a&#x2F;b&#x2F;c （递归创建） </p>
-<p>4、 rm  删除文件&#x2F;目录  例如：rm test.txt （删文件）、 rm -rf test_dir （强制删目录） </p>
-<p> 5、cp  复制文件&#x2F;目录  例如：cp file1 &#x2F;tmp&#x2F; （复制文件）、 cp -r dir1 &#x2F;tmp&#x2F; （复制目录） </p>
-<p>6、 mv  移动&#x2F;重命名文件  例如：mv file1 file2 （重命名）、 mv file1 &#x2F;tmp&#x2F; （移动） </p>
-<p><strong>vim编辑器基础操作</strong></p>
-<hr>
-<p>一、模式切换指令</p>
-<p>1. 进入插入模式：</p>
-<ul>
-<li><p> i ：光标当前位置插入文本</p>
-</li>
-<li><p> a ：光标下一个位置插入文本</p>
-</li>
-<li><p> o ：当前行下方插新行并进入插入模式</p>
-</li>
-<li><p> O ：当前行上方插新行并进入插入模式</p>
-</li>
-</ul>
-<p>2. 进入命令行模式： : （普通模式下输入，底部出现命令行）</p>
-<p>3. 返回普通模式： Esc （插入&#x2F;命令行模式下通用）</p>
-<p>二、文本编辑指令（普通模式）</p>
-<p>1. 字符&#x2F;行删除： x （删除光标处字符）、 dd （剪切当前行， ndd 剪切n行）</p>
-<p>2. 复制&#x2F;粘贴： yy （复制当前行）、 p （光标下方粘贴）、 P （光标上方粘贴）</p>
-<p>3. 撤销&#x2F;重做： u （撤销上一步）、 Ctrl+r （重做撤销操作）</p>
-<p>三、保存与退出指令（命令行模式）</p>
-<p>1. 保存： :w （保存文件，不退出）、 :w 新文件名 （另存为新文件）</p>
-<p>2. 退出： :q （无修改时退出）、 :q! （强制退出，不保存修改）</p>
-<p>3. 保存并退出： :wq &#x2F; :x （两者效果一致，为原笔记补充的高频指令）</p>
-<p>四、行操作</p>
-<p> gg （跳至文件首行）、 G （跳至文件末行）</p>
+  
+    <a href="/2025/12/17/Linux%E5%9F%BA%E7%A1%80%E7%AC%AC%E4%B8%80%E8%AF%BE/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title"></div>
+    </a>
+  
+</nav>
 
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://ningbuzhi.github.io.git/2025/12/17/Linux%E5%9F%BA%E7%A1%80%E7%AC%AC%E4%B8%80%E8%AF%BE/" data-id="cuidPtdwpPl_ZJarAzyFVre16" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-
-  
-    <article id="post-我的第一篇博客" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2025/12/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" class="article-date">
-  <time class="dt-published" datetime="2025-12-16T14:36:15.000Z" itemprop="datePublished">2025-12-16</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2025/12/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/">我的第一篇博客</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://ningbuzhi.github.io.git/2025/12/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" data-id="cuidT29TmD4CqalGJSXSlpQLf" data-title="我的第一篇博客" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2025/12/16/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2025-12-16T13:19:23.144Z" itemprop="datePublished">2025-12-16</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2025/12/16/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Hello-Hexo"><a href="#Hello-Hexo" class="headerlink" title="Hello Hexo"></a>Hello Hexo</h2><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://ningbuzhi.github.io.git/2025/12/16/hello-world/" data-id="cuidA9i0UuzKQSBu8NQXi8sid" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
 
 
 </section>
